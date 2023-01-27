@@ -1,16 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
     <title>ISRO Center</title>
 </head>
 <body>
+    
     <h1>ISRO Center</h1>
-    <div>
+    <div class="text-color">
         <span>I</span>ndian <span>S</span>pace <span>R</span>esearch <span>O</span>rganization
+    </div>
+    <div class="text-bg-color">
+        <p>Search for ISRO certres based on place, state and name</p>
+    </div>
+        
+    <div class="grid-container">
+        <form role="search" id="form">
+            <input type="search" id="query" name="q" placeholder="Type here..." aria-label="Search through site content">
+            <button><svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg></button>
+        </form>
+        <a class="grid-item" href="#" type="submit" name="city" value="City">City</a>
+        <a class="grid-item" href="#" type="submit" name="state" value="State">State</a>
+        <a class="grid-item" href="#" type="submit"  name="center" value="Center">Center</a>
+    </div>
+    <div class="display">
+
     </div>
 </body>
 </html>
