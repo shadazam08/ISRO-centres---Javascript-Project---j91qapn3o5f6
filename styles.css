@@ -1,1 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+:root {
+    --black: #1f1f1f;
+    --white: #d1def0;
+    --yellow: #ffc554;
+    --text-color: #3c3a3a;
+    --bg-blue: #004aad;
+    --btn-yellow: #fff4d4;
+    --footer-yellow: #fff9e9;
+    --grey: #d9d9d9;
+    --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    --transition: all 0.2s linear;
+  }
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Ubuntu", sans-serif;
+    align-self: center;
+/*    width: 50%;*/
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .text-color {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: 10px;
+  }
+  .text-color span {
+    color: var(--bg-blue);
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .text-bg-color {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-blue);
+    color: var(--white);
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 0.25em;
+
+  }
+
+  form {
+    background-color: var(--grey);
+    height: 44px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+  }
+
+  input {
+    all: unset;
+    font: 16px system-ui;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+  ::placeholder {
+    color: var(--text-color);
+    opacity: 0.7;
+    text-align: center;
+  }
+
+  svg {
+    color: var(--black);
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
+
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 0.25em;
+  }
+  .grid-item {
+    background-color:var(--bg-blue);
+    color: var(--white);
+    padding: 0.5px;
+    margin-left: 10px;
+    margin-right: 40px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.25em;
+  }
+   a {
+    text-decoration: none;
+  }
+  button:hover {
+    color: var(--white);
+    background-color: var(--yellow);
+  }
+  .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 100%;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+  }
+  .styled-table tr {
+    background-color: var(--bg-blue);
+    color: #fff;
+    text-align: left;
+  }
+  .styled-table th,
+  .styled-table td {
+    padding: 15px 15px;
+  }
+  .styled-table tbody tr {
+    background-color: var(--bg-blue);
+    color: #fff;
+  }
+.styled-table tbody tr {
+  /* padding-bottom: 10px; */
+  border-bottom: 5px solid #fff;
+}
+/* .styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+} */
 
